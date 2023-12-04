@@ -1,7 +1,7 @@
 // botar aquele bagulho de botar tipo T?
 struct ST {    
-    int left[120*N], right[120*N];
-    int v[120*N];
+    int left[120*N] = {0}, right[120*N] = {0};
+    int v[120*N] = {0};
     int idx = 1;
     int id = INF;
 
